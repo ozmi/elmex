@@ -1,0 +1,27 @@
+{
+  "name": "elmex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "elm make src/Main.elm",
+    "test": "elm-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozmi/elmex.git"
+  },
+  "keywords": [
+    "elm"
+  ],
+  "author": "ozmi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ozmi/elmex/issues"
+  },
+  "homepage": "https://github.com/ozmi/elmex#readme",
+  "devDependencies": {
+    "elm": "^0.19.0-no-deps",
+    "elm-test": "^0.19.0-rev6"
+  }
+}
